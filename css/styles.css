@@ -20,10 +20,6 @@ body {
 }
 
 @keyframes roll {
-    from {
-
-    }
-
     to {
         transform: rotate(360deg);
     }
