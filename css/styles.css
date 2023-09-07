@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.logo {
+  width: 50vh;
+  height: 50vh;
+  animation-duration: 3s;
+  animation-name: roll;
+  animation-iteration-count: infinite;
+}
+
+@keyframes roll {
+    from {
+
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
