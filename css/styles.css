@@ -23,5 +23,11 @@ body {
 @keyframes roll {
     to {
         transform: rotate(360deg);
+        transition-timing-function: ease;
+    }
+
+    50% {
+          width: 30vh;
+          height: 30vh;
     }
 }
