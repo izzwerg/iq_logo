@@ -1,6 +1,6 @@
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
@@ -14,19 +14,14 @@ body {
 .logo {
   width: 20vh;
   height: 20vh;
-  
   animation-duration: 3s;
   animation-name: roll;
   animation-iteration-count: infinite;
 }
 
 @keyframes roll {
-    to {
-        transform: rotate(360deg);
-        transition-timing-function: ease;
-    }
-
-    50% {
-
-    }
+  to {
+    transform: rotate(360deg);
+    transition-timing-function: ease;
+  }
 }
