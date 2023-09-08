@@ -42,3 +42,18 @@ body {
     transition-timing-function: ease;
   }
 }
+
+.logo3 {
+  width: 20vh;
+  height: 20vh;
+  animation-duration: 3s;
+  animation-name: roll3;
+  animation-iteration-count: infinite;
+}
+
+@keyframes roll3 {
+  to {
+    transform: rotate(1080deg);
+    transition-timing-function: ease;
+  }
+}
