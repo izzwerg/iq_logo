@@ -12,8 +12,9 @@ body {
 }
 
 .logo {
-  width: 30vh;
-  height: 30vh;
+  width: 20vh;
+  height: 20vh;
+  
   animation-duration: 3s;
   animation-name: roll;
   animation-iteration-count: infinite;
