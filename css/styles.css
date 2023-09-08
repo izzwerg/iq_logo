@@ -43,15 +43,15 @@ body {
   }
 }
 
-.logo3 {
+.logo-fast {
   width: 20vh;
   height: 20vh;
   animation-duration: 3s;
-  animation-name: roll3;
+  animation-name: roll-fast;
   animation-iteration-count: infinite;
 }
 
-@keyframes roll3 {
+@keyframes roll-fast {
   to {
     transform: rotate(1080deg);
     transition-timing-function: ease;
