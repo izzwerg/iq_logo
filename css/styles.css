@@ -8,7 +8,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: orange;
+  background-color: rgba(255, 166, 0, 0.877);
 }
 
 .logo {
