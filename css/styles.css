@@ -10,7 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: rgba(255, 166, 0, 0.877);
+  background-color: #fe791c;
 }
 
 .logo {
@@ -24,36 +24,6 @@ body {
 @keyframes roll {
   to {
     transform: rotate(360deg);
-    transition-timing-function: ease;
-  }
-}
-
-.logo2 {
-  width: 20vh;
-  height: 20vh;
-  animation-duration: 3s;
-  animation-name: roll2;
-  animation-iteration-count: infinite;
-}
-
-@keyframes roll2 {
-  to {
-    transform: rotate(720deg);
-    transition-timing-function: ease;
-  }
-}
-
-.logo-fast {
-  width: 20vh;
-  height: 20vh;
-  animation-duration: 3s;
-  animation-name: roll-fast;
-  animation-iteration-count: infinite;
-}
-
-@keyframes roll-fast {
-  to {
-    transform: rotate(1080deg);
     transition-timing-function: ease;
   }
 }
